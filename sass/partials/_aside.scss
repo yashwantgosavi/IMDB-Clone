@@ -1,0 +1,11 @@
+aside {
+  h1 {
+    img {
+      width: 80px;
+    }
+  }
+  .border-left {
+    border-left: 1px;
+    @include border();
+  }
+}
